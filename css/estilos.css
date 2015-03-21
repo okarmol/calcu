@@ -4,6 +4,7 @@ body
 	background-position: center center, center center;
 	background-repeat: repeat, no-repeat;
 	color: white;
+
 }
 
 img 
@@ -16,14 +17,19 @@ img
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font: bold 20px Arial, sans-serif;
+	font: bold 15px Arial, sans-serif;
+}
+
+p
+{
+    font-family:'Indie Flower', cursive;
 }
 
 h1
 {
 
-	margin-top: 10%;
-	font-family: Arial;
+	margin-top: 15%;
+	font-family: 'Indie Flower';
 	font-weight: bold;
 	font-size: 2em;
 }
@@ -32,13 +38,13 @@ html
 {
 	height: 100%;
 	background: white;
-	background: radial-gradient(circle, #fff 20%, #ccc);
+	background: radial-gradient(#fff 20%, #ccc);
 	background-size: cover;
-
 }
 
 #calculadora 
 {
+
 	width: 325px;
 	height: auto;
 	
@@ -46,7 +52,7 @@ html
 	padding: 20px 20px 9px;
 	
 	background: #9dd2ea;
-	background: linear-gradient(#1F2A2E, #8bceec);
+	background: linear-gradient(black, #8bceec);
 	border-radius: 3px;
 	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
